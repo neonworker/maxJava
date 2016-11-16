@@ -1,3 +1,5 @@
+package semester1.aufgb1;
+
 import java.util.*;
 
 public class Fakultaet {

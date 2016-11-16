@@ -1,3 +1,5 @@
+package semester1.aufgb2;
+
 import java.util.*;
 
 public class Lotto {
