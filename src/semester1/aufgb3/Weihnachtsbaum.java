@@ -1,3 +1,5 @@
+package semester1.aufgb3;
+
 import java.util.*;
 
 public class Weihnachtsbaum {
@@ -6,7 +8,7 @@ public class Weihnachtsbaum {
 
         int hight, dis, anz = -1, ver = 0;
         Scanner sc = new Scanner (System.in);
-        System.out.println("Höhe des Weihnachtsbaumes?");
+        System.out.println("Hï¿½he des Weihnachtsbaumes?");
         hight = sc.nextInt();
         dis = (hight + hight + 1) / 2;
 

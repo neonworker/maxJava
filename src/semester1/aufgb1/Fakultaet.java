@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Folter_1 {
+public class Fakultaet {
   public static void main (String args[]) {
     int eingabe;
     int ergebnis = 1;
