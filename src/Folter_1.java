@@ -7,7 +7,7 @@ public class Folter_1 {
     int anzahl = 0;
     Scanner konsole = new Scanner(System.in);
     
-    System.out.println("Basis der Fakultät?");
+    System.out.println("Basis der Fakult?t?");
     eingabe = konsole.nextInt();
     
     while (anzahl < eingabe) {

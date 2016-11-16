@@ -1,4 +1,4 @@
-import java.util.*;
+/*import java.util.*;
 
 public class BMI {
   public static void main (String args[]) {
@@ -17,4 +17,4 @@ public class BMI {
     
     System.out.println(bmi);
 }
-}  
+}  */

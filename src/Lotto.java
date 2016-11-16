@@ -7,7 +7,7 @@ public class Lotto {
     int gezogen;
     int richtige = 0;
     
-    Random r = new Random();
+    Random r = new Random(); //WER LESEN KANN IST IM VORTEIL
     
     Scanner konsole = new Scanner(System.in);
     
@@ -23,7 +23,7 @@ public class Lotto {
         System.out.println("Die " + nummer + ". gezogene Zahl ist " + gezogen + " und somit die " + richtige + ". richtige Zahl.");
         }
       else {
-        System.out.println("Die " + nummer + ". gezogene Zahl ist " + gezogen + " und somit nicht übereinstimmend.");       
+        System.out.println("Die " + nummer + ". gezogene Zahl ist " + gezogen + " und somit nicht ?bereinstimmend.");       
       }
     } 
   }
