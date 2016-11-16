@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class BMI {
+  public static void main (String args[]) {
+    double groeße;
+    double masse;
+    double bmi;
+    
+    Scanner konsole = new Scanner(System.in);
+    
+    System.out.println("Körpergewicht in Kilogramm?");
+    masse = konsole.nextDouble();
+    System.out.println("Körpergröße in Metern?");
+    groeße = konsole.nextDouble();
+    
+    bmi = masse / Math.pow(groeße, 2);
+    
+    System.out.println(bmi);
+}
+}  
