@@ -5,16 +5,12 @@ public class BMI {
     double g;
     double masse;
     double bmi;
-    
-    Scanner konsole = new Scanner(System.in);
-    
-    System.out.println("Körpergewicht in Kilogramm?");
-    masse = konsole.nextDouble();
-    System.out.println("Körpergröße in Metern?");
-    g = konsole.nextDouble();
+
+    masse = Double.parseDouble(javax.swing.JOptionPane.showInputDialog(null, "Bitte Koerpergewicht in Kilogramm eingeben:"));
+    g = Double.parseDouble(javax.swing.JOptionPane.showInputDialog(null, "Bitte Koerpergroeße in Metern eingeben:"));
     
     bmi = masse / Math.pow(g, 2);
-    
-    System.out.println((int)bmi);
+
+        javax.swing.JOptionPane.showMessageDialog(null, "Der BMI ist: " + (int) bmi);
     }
 }
